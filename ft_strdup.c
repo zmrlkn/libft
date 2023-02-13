@@ -29,3 +29,12 @@ char	*ft_strdup(const char *s1)
 	p[i] = 0;
 	return (p);
 }
+
+/*
+#include <stdio.h>
+int main()
+{
+	char	s1[] = "42 istanbul";
+	printf("%s\n", ft_strdup(s1));
+}
+*/

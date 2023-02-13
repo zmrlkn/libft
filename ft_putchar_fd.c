@@ -16,3 +16,10 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
+
+#include <fcntl.h>
+int main()
+{
+	int fd = open("/Users/zalkan/Dekstop/test2.txt", O_WRONLY | O_CREAT , 0777);
+	ft_putchar_fd('a', fd);
+}

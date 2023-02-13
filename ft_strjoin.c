@@ -30,3 +30,16 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	newstr[i] = '\0';
 	return (newstr);
 }
+
+/*
+#include <stdio.h>
+int main()
+{
+	char i[] = "bihter";
+	char e[] = "erturk";
+
+	printf("%s\n", ft_strjoin(i,e));
+}*/
+
+// Malloc ile hafızdan yer ayırdı, çıktı olarak 
+// s1 ve s2 stringlerinin birleşimini verdi

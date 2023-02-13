@@ -23,3 +23,16 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 			f(i++, s++);
 	}
 }
+
+//void	f(unsigned int i, char *c)
+//{
+//	*c = *c - 12;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//	char	str[] = "istanbul";
+//	ft_striteri(str, f);
+//	printf("%s\n", str);
+//}

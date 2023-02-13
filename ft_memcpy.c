@@ -27,3 +27,18 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		*d++ = *s++;
 	return (dest);
 }
+
+//#include <stdio.h>
+
+//int main()
+//{
+//	char a[] = "sfflskdf";
+//	char b[] = "fdhgd";
+//	printf("%s\n", ft_memcpy(a, b, 5));
+//	//printf("%s\n", (char *)ft_memcpy(a+2,a,5));//overlap durumu için
+//	return(0);
+//}
+
+// "src" parametresi ile gösterilen bellek bölgesindeki karakterleri,
+// "n" parametre değeri kadar uzunlukta, "dst" parametresindeki
+// bellek bölgesine kopyalar.

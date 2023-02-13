@@ -21,24 +21,24 @@ t_list	*ft_lstlast(t_list *lst)
 	return (lst);
 }
 
-//#include <stdio.h>
+#include <stdio.h>
 
-//int main()
-//{
-//	t_list *node1,*node2,*node3;
+int main()
+{	
+	t_list *node1,*node2,*node3;
 
-//	node1 = (t_list *)malloc(sizeof(t_list));
-//	node2 = (t_list *)malloc(sizeof(t_list));
-//	node3 = (t_list *)malloc(sizeof(t_list));
+	node1 = (t_list *)malloc(sizeof(t_list));
+	node2 = (t_list *)malloc(sizeof(t_list));
+	node3 = (t_list *)malloc(sizeof(t_list));
 
-//	node1->next = node2;
-//	node2->next = node3;
-//	node2->content = "selamdünya";
-//	node3->next = NULL;
-//	node3->content = "helloworld";
+	node1->next = node2;
+	node2->next = node3;
+	node2->content = "selamdünya";
+	node3->next = NULL;
+	node3->content = "helloworld";
 
-//	printf("%s",(char *)ft_lstlast(node1)->content);
-//}
+	printf("%s",(char *)ft_lstlast(node1)->content);
+}
 
 //lst sturct yapsının bağlı olduğu son struct yapısını döndürür.
 //çıktı olarak helloworld vercektir. next inde null olan struct 

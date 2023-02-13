@@ -33,3 +33,17 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (begin);
 }
+
+// #include <stdio.h>
+
+// void    del(void *content)
+// {
+//    	free(content);
+// }
+
+// void *ft_change(void *content)
+// {
+// 	((char *)content)[0] -= 32;
+// 	return(content);
+// }
+

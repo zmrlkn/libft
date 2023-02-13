@@ -21,3 +21,11 @@ void	ft_putendl_fd(char *s, int fd)
 		write (fd, "\n", 1);
 	}
 }
+
+#include <fcntl.h>
+
+int main()
+{
+	int fd = open("/Users/zalkan/Dekstop/test.txt", O_WRONLY | O_CREAT , 0777);
+	ft_putendl_fd("dfsfjslfsd", fd);
+}

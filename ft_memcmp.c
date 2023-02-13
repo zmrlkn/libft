@@ -1,4 +1,4 @@
-/* ************************************************************************** */
+           /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
@@ -29,3 +29,18 @@ int	ft_memcmp(const void *ptr1, const void *ptr2, size_t n)
 	}
 	return (0);
 }
+
+//#include <stdio.h>
+
+//int main()
+//{
+//	char str1[] = "42 estanbul";
+//	char str2[] = "42 icole";
+
+//	printf("%d\n", ft_memcmp(str1, str2, 9));
+
+//}
+
+// iki stringin ilk farklı olduğu yeri yakalayıp ,
+// farklı olan iki karakteri karşılaştırıyor.
+//değerler aynı ise 0 farklı ise 

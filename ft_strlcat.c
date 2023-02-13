@@ -33,3 +33,14 @@ size_t	ft_strlcat(char *dst, const char *src, size_t n)
 	dst[d + i] = '\0';
 	return (d + s);
 }
+
+/*#include <stdio.h>
+int main()
+{
+    char a[] = "bihter";
+    char b[] = " erturk";
+    printf("%zu", ft_strlcat(a,b,6));
+    return (0);
+}*/
+
+/* src dizesini dst nin sonuna ekler */

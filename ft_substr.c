@@ -34,3 +34,15 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 	ft_strlcpy(ret, s + start, len + 1);
 	return (ret);
 }
+
+// #include <stdio.h>
+
+// int main()
+// {
+// 	char s[] = "Merhaba42istanbul";
+
+// 	printf("%s",ft_substr(s,7,9));
+// }
+
+// s dizisinde start değeri ile başlanıp len değerine kadar 
+// bellekte yer açar ve s dizisinden kopyalar.

@@ -74,3 +74,19 @@ void	ft_lstiter(t_list *lst, void (*f)(void *));
 int		ft_lstsize(t_list *lst);
 
 #endif
+
+//#ifndef: Bir makronun(libt.h) tanımlanmadığını kontrol eder.
+//#define: Bir makro(libft.h) oluşturur ve ona bir değer atar.
+//#endif: #ifdef veya #ifndef ile başlatılan koşullu bir bloğun sonunu belirtir.
+//typedef struct s_list
+//{
+//	void			*content;
+//	struct s_list	*next;
+//}t_list;
+//Bu C dilinde bir yapı (struct) tanımıdır. 
+//Bu yapı, t_list adında bir veri tipi tanımlar. 
+//Yapı içinde, content adında bir void işaretçisi (pointer) ve next adında bir t_list işaretçisi yer alır.
+//Bu yapı, genellikle bağlı liste veri yapısını oluşturmak için kullanılır.
+//Bağlı liste, elemanları birbirine işaretçi (pointer) yoluyla bağlı olan bir veri yapısıdır. 
+//Her eleman, içeriği (content) ve bir sonraki elemanın adresini (next) tutar.
+//Bu sayede, bağlı liste boyunca dolaşarak elemanlara erişmek mümkündür

@@ -28,3 +28,17 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		ft_memcpy(d, s, n);
 	return (dest);
 }
+
+//#include <stdio.h>
+
+//int main()
+//{
+//	char a[] = "sfflskdf";
+//	char b[] = "fdhgd";
+//	printf("%s\n", ft_memcpy(a, b, 5));
+//	//printf("%s\n", (char *)ft_memcpy(a+2,a,5));//overlap durumu için
+//	return(0);
+//}
+
+// Memcopy ile aynı işlevi yapar fakat 
+// bellekte overlop olmaması için 39. satırda verilen durumda tersten kopyalar.
