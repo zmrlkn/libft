@@ -31,3 +31,17 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }	
+
+//#include <stdio.h>
+
+//int main()
+//{
+//	char samanlık[] = "samanlık igne buldun";
+//	char igne[] = "igne";
+
+//	printf("%s",ft_strnstr(samanlık,igne,5));
+//}
+
+//samanlıkta iğne aramak
+//ilk str haystack(samanlık) içerisinde ikinci str needle(iğne) bulunca
+//needle dan sonrasını döndürür
