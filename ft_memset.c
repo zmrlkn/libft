@@ -22,20 +22,20 @@ void	*ft_memset(void *b, int c, size_t len)
 	return (b);
 }
 
- #include <stdio.h>
+//#include <stdio.h>
 
-int	main()
-{
+//int	main()
+//{
 
-	int dizi[] = {1,2,3,4,5};
+//	int dizi[] = {1,2,3,4,5};
 
-	ft_memset(&dizi, 0, 12);
- 	printf("%d", dizi[0]);
-	printf("%d", dizi[1]);
-	printf("%d", dizi[2]);
-	printf("%d", dizi[3]);
-	return 0;
-}
+//	ft_memset(&dizi, 0, 12);
+//	printf("%d", dizi[0]);
+//	printf("%d", dizi[1]);
+//	printf("%d", dizi[2]);
+//	printf("%d", dizi[3]);
+//	return 0;
+//}
 
 // "c" parametresi ile gösterilen bellek bölgesindeki karakteri dest
 // parametresindeki bellek bölgesinin ilk "n" parametre değeri kadar byte'ına

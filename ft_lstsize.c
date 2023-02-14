@@ -42,5 +42,4 @@ int	ft_lstsize(t_list *lst)
 
 //	printf("%d", ft_lstsize(node1));
 //}
-
 //bağlı listeye kaç tane s_list yapısının olduğunu döndürür 

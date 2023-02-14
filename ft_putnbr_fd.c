@@ -27,3 +27,11 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(n2 / 10, fd);
 	ft_putchar_fd((char)(n2 % 10 + 48), fd);
 }
+
+#include <fcntl.h>
+
+int main()
+{
+	int fd = open("/Users/zalkan/Dekstop/test2.txt", O_WRONLY | O_CREAT , 0777);
+	ft_putnbr_fd( '2', fd);
+}
